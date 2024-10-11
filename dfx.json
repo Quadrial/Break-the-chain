@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "adonate_backend": {
+      "main": "src/adonate_backend/main.mo",
+      "type": "motoko"
+    },
+    "adonate_frontend": {
+      "dependencies": [
+        "adonate_backend"
+      ],
+      "source": [
+        "src/adonate_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "adonate_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
