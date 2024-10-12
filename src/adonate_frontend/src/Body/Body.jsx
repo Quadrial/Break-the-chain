@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import DonationHistory from "../History/History";
 
 const aims = [
   {
@@ -92,6 +93,11 @@ export const Body = () => {
             </button>
           </figure>
         </section>
+      </main>
+      <main className="flex flex-col content-center items-center justify-center mt-20">
+        <div className="text-4xl font-bold ">Donation History</div>
+        <div className="mt-10 mb-20">
+        <DonationHistory /></div>
       </main>
     </div>
   );

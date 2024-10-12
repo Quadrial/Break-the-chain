@@ -146,9 +146,7 @@ export default function Header() {
                 >
                   Donate History
                 </Link>
-                <Link className="border-b border-gray-400 my-8 uppercase">
-                  How It Works
-                </Link>
+                
                 <Link
                   to="/about"
                   className="border-b border-gray-400 my-8 uppercase"
@@ -159,7 +157,7 @@ export default function Header() {
             </div>
           </section>
 
-          <ul className="DESKTOP-MENU hidden text-white space-x-[62px] lg:flex md:flex">
+          <ul className="DESKTOP-MENU hidden text-white space-x-[130px] lg:flex md:flex">
             <Link to="/" className=" my-8 uppercase">
               Home
             </Link>
@@ -169,7 +167,7 @@ export default function Header() {
             <Link to="/history" className=" my-8 uppercase">
               Donate History
             </Link>
-            <Link className=" my-8 uppercase">How It Works</Link>
+            
             <Link to="/about" className=" my-8 uppercase">
               About Us
             </Link>
